@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 /*
 --01 TYPOGRAPHY SYSTEM
 
@@ -38,7 +40,7 @@ Default: 400
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -77,11 +79,12 @@ body {
 .btn:visited {
   display: inline-block;
   font-size: 1.25rem;
+  font-weight: 600;
   padding: 1rem 2rem;
   border-radius: 9px;
   text-decoration: none;
   /* Put transition on original "state" */
-  transition: background-color 1s;
+  transition: background-color 0.3s;
 }
 
 .btn--full:link,
@@ -111,6 +114,39 @@ body {
   /* border: 3px solid #fff; */
   /* Trick to add border inside  */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 3rem;
+  width: 3rem;
+  margin-right: -1rem;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
 
 .hero-img {
