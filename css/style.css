@@ -46,13 +46,37 @@ body {
   color: #555;
 }
 
+/*************************************/
+/*          Header Section           */
+/*************************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  /* Because we want header to be sticky later */
+  height: 6rem;
+  padding: 0 3rem;
+}
+
+.logo {
+  height: 1.375rem;
+}
+
+/*************************************/
+/*            Hero Section           */
+/*************************************/
+
 .section-hero {
   background-color: #fdf2e9;
-  padding: 6rem 0;
+  padding: 3rem 0 6rem 0;
 }
 
 .hero {
   max-width: 84rem;
+  padding: 0 2rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
