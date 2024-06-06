@@ -29,7 +29,7 @@ Paragraph Default: 1.6
 -- 02 COLORS 
 
 - Primary : #e67e22 
-- Tints : #fdf2e9
+- Tints : #fdf2e9 #fae5d3
 - Shades :
 - Accents :
 - Greys : 
@@ -224,52 +224,4 @@ body {
 
 .hero-img {
   width: 100%;
-}
-
-/*************************************/
-/*       How It Works Section        */
-/*************************************/
-
-.section-how {
-  padding: 6rem 0;
-  /* background-color: orangered; */
-}
-
-.container {
-  /* 1140px */
-  max-width: 75rem;
-  padding: 0 2rem;
-  margin: 0 auto;
-}
-
-.grid {
-  display: grid;
-  gap: 6rem;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.step-img {
-  width: 50%;
-}
-
-.subheading {
-  display: block;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #cf711f;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  letter-spacing: 0.75px;
-}
-
-.heading-secondary {
-  font-size: 2.75rem;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 6rem;
 }
