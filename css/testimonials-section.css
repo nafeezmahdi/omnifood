@@ -1,0 +1,32 @@
+.section-testimonials {
+  padding: 6rem 0;
+}
+
+.testimonials-container {
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.testimonial {
+}
+
+.testimonial-img {
+  width: 4rem;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.testimonial-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  color: #777;
+}
