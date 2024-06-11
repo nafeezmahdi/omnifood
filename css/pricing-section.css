@@ -76,3 +76,31 @@
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+
+.plan-sm-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-icon {
+  color: #e67e22;
+  height: 2rem;
+  width: 2rem;
+  background-color: #fdf2e9;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.feature-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
