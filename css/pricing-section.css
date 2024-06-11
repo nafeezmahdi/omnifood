@@ -3,6 +3,36 @@
 }
 
 .pricing-plan {
+  width: 75%;
+  border-radius: 11px;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  padding: 2.875rem;
+  border: 2px solid #fdf2e9;
+}
+
+.pricing-plan--complete {
+  background: #fdf2e9;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best Value";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 5rem;
+  color: #333;
+  background-color: #ffd43b;
+  /*  */
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  transform: rotate(45deg);
 }
 
 .plan-header {
@@ -41,4 +71,8 @@
 .plan-btn {
   text-align: center;
   margin-top: 3rem;
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
