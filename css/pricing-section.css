@@ -1,0 +1,44 @@
+.section-pricing {
+  padding: 6rem 0;
+}
+
+.pricing-plan {
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 2rem;
+}
+
+.plan-price {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.dollar-sign {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.plan-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+.plan-btn {
+  text-align: center;
+  margin-top: 3rem;
+}
