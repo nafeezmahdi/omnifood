@@ -29,13 +29,14 @@ Paragraph Default: 1.6
 -- 02 COLORS 
 
 - Primary : #e67e22 
-- Tints : #fdf2e9 #fae5d3
+- Tints : #fdf2e9 #fae5d3 #eb984e
 - Shades :
 - Accents :
 - Greys : 
 #555 #333 #6f6f6f
 
 -- 03 SHADOWS 
+ 0 1.5rem 3rem rgba(0, 0, 0, 0.075)
 
 -- 04 BORDER-RADIUS 
 Default : 9px
