@@ -11,10 +11,40 @@
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
   /*  */
-  height: 40rem;
+  /* height: 40rem; */
 }
 
 .cta-text-box {
+  color: #45260a;
+  padding: 4rem;
+  padding-top: 3rem;
+}
+
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 2rem;
+}
+
+.cta-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+}
+
+.cta-label {
+}
+
+.cta-input {
+}
+
+.cta-form-btn {
 }
 
 .cta-img-box {
