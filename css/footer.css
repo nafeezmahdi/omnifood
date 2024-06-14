@@ -1,0 +1,7 @@
+.footer {
+  padding: 6rem 0;
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
