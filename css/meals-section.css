@@ -23,7 +23,7 @@
 }
 
 .meal:hover {
-  transform: translateY(-12px);
+  transform: translateY(-0.75rem);
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.06);
 }
 
