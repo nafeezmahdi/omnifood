@@ -1,5 +1,5 @@
 /*************************************/
-/*   Below 1344px (Smaller DeskTop   */
+/*   Below 1344px (Smaller DeskTop)  */
 /*************************************/
 @media (max-width: 84em) {
   .hero {
@@ -16,5 +16,43 @@
 
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*************************************/
+/*  Below 1200px (Landscape Tablets) */
+/*************************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 93.75%;
+  }
+
+  .header {
+    padding: 0 2rem;
+  }
+
+  .main-nav-list {
+    gap: 2rem;
+  }
+
+  .hero {
+    gap: 3rem;
+  }
+
+  .grid {
+    column-gap: 3rem;
+    row-gap: 4rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.25rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.5rem;
+  }
+
+  .testimonials-container {
+    padding: 6rem 2rem;
   }
 }

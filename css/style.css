@@ -92,7 +92,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .main-nav-link:link,
@@ -130,12 +130,6 @@ body {
 .section-hero {
   background-color: #fdf2e9;
   padding: 3rem 0 6rem 0;
-}
-
-@media (max-width: 1200px) {
-  .section-hero {
-    background-color: #8d5222;
-  }
 }
 
 .hero {
