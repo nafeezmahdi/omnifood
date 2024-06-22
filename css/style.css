@@ -52,6 +52,10 @@ Medium : 11px
   /* overflow-x: hidden; */
 }
 
+html {
+  overflow-x: hidden;
+}
+
 *:focus {
   outline: none;
   /* outline: 4px dotted #e67e22;

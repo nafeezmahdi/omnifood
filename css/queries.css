@@ -62,7 +62,7 @@
 /*************************************/
 @media (max-width: 61em) {
   html {
-    font-size: 87.5%;
+    font-size: 81.25%;
   }
 
   .hero {
@@ -175,5 +175,51 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 1.875rem;
+  }
+
+  .pricing-plan {
+    width: 85%;
+  }
+}
+
+/*************************************/
+/*   Below 736px (Smaller Tablets)   */
+/*************************************/
+@media (max-width: 46em) {
+  html {
+    font-size: 81.25%;
+  }
+
+  .grid--4-cols,
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading-secondary {
+    margin-bottom: 3rem;
+  }
+
+  .diet-meal {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 2rem;
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
   }
 }
