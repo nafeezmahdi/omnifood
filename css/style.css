@@ -49,6 +49,7 @@ Medium : 11px
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 *:focus {
@@ -63,6 +64,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /*************************************/
@@ -74,6 +76,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
+  position: relative;
 
   /* Because we want header to be sticky later */
   height: 6rem;
@@ -121,6 +124,28 @@ body {
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/*************************************/
+/*      Mobile Nav Section           */
+/*************************************/
+
+.nav-mobile-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  /*  */
+  display: none;
+}
+
+.nav-mobile-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #333;
+}
+
+.nav-mobile-icon[name="close-outline"] {
+  display: none;
 }
 
 /*************************************/

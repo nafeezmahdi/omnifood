@@ -58,7 +58,7 @@
 }
 
 /*************************************/
-/*  Below 976px (Landscape Tablets)  */
+/*       Below 976px (Tablets)       */
 /*************************************/
 @media (max-width: 61em) {
   html {
@@ -121,5 +121,59 @@
 
   .cta-form-btn {
     margin-top: 0.75rem;
+  }
+
+  /*      Mobile Nav Section           */
+
+  .nav-mobile-btn {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    transform: translateX(100%);
+    /*  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    /*  */
+    /* display: none; */
+    /*  Hide it visually */
+    opacity: 0;
+    /*  Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+    /* hide it form screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .nav-mobile-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .nav-mobile-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.875rem;
   }
 }
