@@ -54,6 +54,8 @@ Medium : 11px
 
 html {
   overflow-x: hidden;
+  /*  */
+  /* scroll-behavior: smooth; */
 }
 
 *:focus {
